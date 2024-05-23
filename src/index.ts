@@ -73,3 +73,40 @@ console.log(variable1)
 const enum LoadingState { Idle, Loading, Success, Error }
 
 const estado = LoadingState.Success;
+
+type Direccion = {
+  numero: number,
+  calle: string,
+  pais: string
+}
+
+type Persona = {
+  readonly id: number,
+  nombre: string,
+  talla: Talla,
+  direccion: Direccion
+}
+
+const objeto: Persona = {
+  id: 1,
+  nombre: 'Hi World',
+  talla: Talla.Medium,
+  direccion: {
+    numero: 593,
+    calle: "Street A",
+    pais: "Ecuador"
+  }
+}
+
+// const object: {
+//   readonly id: number,
+//   nombre: string,
+//   talla: Talla,
+// } = {
+//   id: 1,
+//   nombre: 'Hi World',
+//   talla: Talla.Medium
+// }
+
+//object.nombre = 'Hi World';
+//object.id = 42

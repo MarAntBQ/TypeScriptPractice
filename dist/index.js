@@ -31,4 +31,14 @@ var Talla;
 const variable1 = Talla.Large;
 console.log(variable1);
 const estado = 2;
+const objeto = {
+    id: 1,
+    nombre: 'Hi World',
+    talla: Talla.Medium,
+    direccion: {
+        numero: 593,
+        calle: "Street A",
+        pais: "Ecuador"
+    }
+};
 //# sourceMappingURL=index.js.map
