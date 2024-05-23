@@ -41,3 +41,35 @@ myVariable = 42
 function happyDog(config: any) {
   return config
 }
+
+
+let animals : string[] = ['dog', 'cat', 'cow'];
+let nums: number[] = [1,2,3]
+
+let checks: boolean[] = []
+let nums2: Array<number> = []
+
+
+// nums.map(x => x.) // The autocompletation suggest methods according to the array type
+
+let tupla: [number, string[], boolean] = [1, ["happy dog", "sad cat"], true];
+
+
+// tupla.push(12); <- Error in TypeScript
+
+const small = 's'
+const medium = 'm'
+const large = 'l'
+const extralarge = 'xl'
+
+// PascalCase
+enum Talla{ Small = 's', Medium = 'm', Large = 'l', ExtraLarge = 'xl'}
+
+const variable1 = Talla.Large
+
+console.log(variable1)
+
+
+const enum LoadingState { Idle, Loading, Success, Error }
+
+const estado = LoadingState.Success;
