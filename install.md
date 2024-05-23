@@ -7,5 +7,11 @@ npm i -g typescript
 
 
 
-- Complie
+- Compile
 * tsc index.ts
+
+- Config environment
+* tsc -init -> Change datas as is not commented by me
+
+- Auto Compile
+* tsc
