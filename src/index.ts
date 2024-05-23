@@ -98,6 +98,8 @@ const objeto: Persona = {
   }
 }
 
+const arr: Persona[] = []
+
 // const object: {
 //   readonly id: number,
 //   nombre: string,
